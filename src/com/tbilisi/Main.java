@@ -24,6 +24,8 @@ public class Main {
         System.out.println("Вот последняя правда, открытая мной.");
         System.out.println("                              Омар Хайям");
 
+        System.out.println("new commit");
+
 
         // 'Ctrl +Shift + /' => comment selected code
         /*Ctrl+Shift+Enter => complete current code (Statement)
