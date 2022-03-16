@@ -21,7 +21,7 @@ public class Student {
          student1.economic_rating = 8.0;
          student1.foreign_lang_rating = 8.0;
          double averageRating1 = (student1.math_rating + student1.economic_rating + student1.foreign_lang_rating)/3;
-         System.out.println("Average " + student1.student_firstname + "'s rating is " + averageRating1);
+         System.out.println("Average " + student1.student_firstname + " " + student1.student_surname + "'s rating is " + averageRating1);
 
          Student student2 = new Student();
          student2.student_id = 2;
@@ -32,7 +32,7 @@ public class Student {
          student2.economic_rating = 7.9;
          student2.foreign_lang_rating = 7.9;
          double averageRating2 = (student2.math_rating + student2.economic_rating + student2.foreign_lang_rating)/3;
-         System.out.println("Average " + student2.student_firstname + "'s rating is " + averageRating2);
+         System.out.println("Average " + student2.student_firstname + " " + student2.student_surname + "'s rating is " + averageRating2);
 
 
          Student student3 = new Student();
@@ -44,7 +44,7 @@ public class Student {
          student3.economic_rating = 9.0;
          student3.foreign_lang_rating = 9.3;
          double averageRating3 = (student3.math_rating + student3.economic_rating + student3.foreign_lang_rating)/3;
-         System.out.println("Average " + student3.student_firstname + "'s rating is " + averageRating3);
+         System.out.println("Average " + student3.student_firstname + " " + student3.student_surname + "'s rating is " + averageRating3);
 
 
 
