@@ -18,6 +18,7 @@ public class Car {
         System.out.println("Color is " + color + " Model is " + carModel +
                 " Car's engine power is " + carEnginePower + " max speed is " + speedMax + " speedCurrent is " + speedCurrent);
     }
+
 }
     class CarTest{
         public static void main(String[] args) {
