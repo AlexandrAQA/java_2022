@@ -10,6 +10,7 @@ public class Itman extends BankAcc{
     BankAcc id;
     BankAcc balance;
     BankAcc currency;
+    double changedBalance;
 
     Itman(int id_bank_acc, double balance_ba, boolean isPremium_ba, String currency_ba) {
         super(id_bank_acc, balance_ba, isPremium_ba, currency_ba);
@@ -41,9 +42,7 @@ public class Itman extends BankAcc{
             itman.showInfoItman();
             itman.addMoney(100.99);
             itman.spendMoney(22.99);
-
-
-
+            //itman.showInfoItman();
         }
     }
 
@@ -71,6 +70,7 @@ class BankAcc {
         balance = balance_ba;
         isPremium = isPremium_ba;
         currency = currency_ba;
+
     }
 
     int id;
