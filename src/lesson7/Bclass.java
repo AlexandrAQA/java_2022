@@ -11,7 +11,7 @@ public class Bclass {
         surname = surname0;
     }
 
-    Bclass (String address0, String surname0){
+    public Bclass (String address0, String surname0){
         address = address0;
         surname = surname0;
     }
@@ -28,11 +28,16 @@ public class Bclass {
         salary = salary0;
     }
 
-    protected double salaryX2(double salary_old) {
-        return salary = salary_old * 2;
+    public double salaryX2(double salary_old) {
+        salary = salary_old * 2;
+        System.out.println(salary);
+        return salary;
     }
 
     public void showDataEmployee(int id0, String surname0, String address0) {
+        id = id0;
+        surname = surname0;
+        address = address0;
         System.out.println("ID is " + id + " Surname is " + surname + " address is " + address);
     }
 

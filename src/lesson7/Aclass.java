@@ -13,6 +13,9 @@ public class Aclass {
     }
 
     public void showDataEmployee(int id0, String surname0, String address0) {
+        id = id0;
+        surname = surname0;
+        address = address0;
         System.out.println("ID is " + id + " Surname is " + surname + " address is " + address);
     }
     protected void showPrivateDataEmployee (int bankAccountId0, double salary0){
