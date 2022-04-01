@@ -1,12 +1,12 @@
 package lesson9;
 
 public class Car {
-    String carName;
-    String color;
+    public String carName;
+    public String color;
     static  int count;
-    double priceDefault = 1000;
+    public double priceDefault = 1000;
 
-    Car(String carName, String color, double price){
+    public Car (String carName, String color, double price){
         count++;
         this.carName = carName;
         this.color = color;

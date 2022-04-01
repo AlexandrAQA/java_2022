@@ -27,7 +27,7 @@ and we need to refer to them by the class name
         //count++;
         System.out.println("Total amount of Students is equal to " + Student.id_count);
     }
-    public void showNonStatic(){
+    void showNonStatic(){
         id_count++;
         count++;
     }
