@@ -2,6 +2,10 @@ package lesson10;
 
 import java.util.Scanner;
 
+class Student {
+
+}
+
 public class IfElseClass {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
